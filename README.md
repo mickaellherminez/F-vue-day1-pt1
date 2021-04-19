@@ -202,14 +202,18 @@ data() {
 }
 ```
 
-
 ### 2.10. Comprendre les méthodes dans Vue.js
 
-### 2.11. Comprendre les propriétés Computed
+html:
+```
+<button @click="order()">Mettre en ordre</button>
+```
 
-## 3. Gérer les styles CSS
-### 3.1. Exploiter les classes
+javascript:
+```
+methods: {
+    order() {}
+}
+```
 
-### 3.2. Exploiter l'attribut Style
 
-### 3.3. Créer des transitions et des animations

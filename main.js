@@ -96,5 +96,12 @@ const app = Vue.createApp({
             ]
         }       
     },
+    methods: {
+        order() {
+            let objTemp = Object.entries(this.hobbies).sort(function (a, b) { return a[1] - b[1]; })
+            this.hobbies = {}
+            objTemp.forEach(el => { this.hobbies[el[0]] = el[1] });
+        }
+    }
 })
  

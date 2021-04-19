@@ -46,6 +46,7 @@
         <input v-model="o" type="text" placeholder="note">
 
         <button  :class="{notActive : !h||!o}" @click="hobbies[h] = o, h=undefined; o=undefined" :disabled="!h||!o">+ hobbie</button>
+        <button @click="order()">Mettre en ordre</button>
     </div>
     <!-- JS -->
     <script src="https://unpkg.com/vue@next"></script> 
