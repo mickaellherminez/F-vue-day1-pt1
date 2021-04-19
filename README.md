@@ -148,6 +148,29 @@ data() {
 },
 ```
 
+### 2.6. Utiliser les boucles
+
+html:
+```
+<span v-for="item in items">{{item}},</span>
+
+```
+
+javascript:
+```
+skills: [
+    { label: 'AngularJS'}, {
+      label: 'SQL'}, {
+      label: 'CSS'}, {
+      label: 'Bootstrap'}, {
+      label: 'HTML5'}, {
+      label: 'C#'}, {
+      label: 'jQuery'}, {
+      label: 'Docker'}, {
+      label: 'Angular 4, 5, 6, 7...'}, {
+      label: 'Vue 2, 3'}
+]
+```
 
 
 
@@ -157,3 +180,26 @@ data() {
 
 
 
+
+
+
+
+
+
+
+### 2.7. Comprendre l'attribut Key
+
+### 2.8. Écouter les évènements
+
+### 2.9. Découvrir la liaison bidirectionnelle
+
+### 2.10. Comprendre les méthodes dans Vue.js
+
+### 2.11. Comprendre les propriétés Computed
+
+## 3. Gérer les styles CSS
+### 3.1. Exploiter les classes
+
+### 3.2. Exploiter l'attribut Style
+
+### 3.3. Créer des transitions et des animations
