@@ -10,6 +10,16 @@ const app = Vue.createApp({
             show: true,
             checked: false,
             showList: "Tableau",
+            h: undefined,
+            o: undefined,
+            hobbies: {
+                'Musée': 4,
+                'Footing': 3, 
+                'Cinéma': 6, 
+                'Roller': 2, 
+                'Vélo': 5, 
+                'Informatique': 1 
+            },
             skills: [
                 {
                     img: 'assets/images/angularjs.png',

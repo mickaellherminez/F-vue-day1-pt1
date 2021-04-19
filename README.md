@@ -186,9 +186,30 @@ html:
 <input v-on:click="action..." type="checkbox" id="checkbox" v-model="checked">
 ```
 
+### 2.9. Découvrir la liaison bidirectionnelle
+
+html:
+```
+<input v-model="value" type="text" placeholder="data">
+```
+
+javascript:
+```
+data() {
+    return {
+        value: ""
+    }
+}
+```
 
 
+### 2.10. Comprendre les méthodes dans Vue.js
 
+### 2.11. Comprendre les propriétés Computed
 
+## 3. Gérer les styles CSS
+### 3.1. Exploiter les classes
 
+### 3.2. Exploiter l'attribut Style
 
+### 3.3. Créer des transitions et des animations
