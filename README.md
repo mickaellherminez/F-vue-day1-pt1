@@ -158,7 +158,7 @@ html:
 
 javascript:
 ```
-skills: [
+items: [
     { label: 'AngularJS'}, {
       label: 'SQL'}, {
       label: 'CSS'}, {
@@ -181,25 +181,3 @@ skills: [
 
 
 
-
-
-
-
-
-
-### 2.7. Comprendre l'attribut Key
-
-### 2.8. Écouter les évènements
-
-### 2.9. Découvrir la liaison bidirectionnelle
-
-### 2.10. Comprendre les méthodes dans Vue.js
-
-### 2.11. Comprendre les propriétés Computed
-
-## 3. Gérer les styles CSS
-### 3.1. Exploiter les classes
-
-### 3.2. Exploiter l'attribut Style
-
-### 3.3. Créer des transitions et des animations
