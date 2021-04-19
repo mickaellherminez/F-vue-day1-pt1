@@ -1,7 +1,7 @@
 # vue-js-training-day1
 
 ## 1. Introduction
-### 1,1, À propos de Vue.js
+### 1.1. À propos de Vue.js
 
 [Vue.js Wikipedia](https://fr.wikipedia.org/wiki/Vue.js)
 
@@ -78,4 +78,27 @@ Et dans le fichier javascript:
 ```
 const app = Vue.createApp({ })
 ```
+
+### 2.2. L'interpolation de texte
+
+L'interpolation de texte s'effectue entre le Javascript dans le bloc ```data()``` et le html avec la "Syntaxe Moustaches" ```{{```.
+
+html:
+```
+<span> Hello {{ message }} </span>
+```
+javascript:
+```
+data() {
+    return {
+        message: "World"
+    }
+}
+```
+
+
+
+
+
+
 
