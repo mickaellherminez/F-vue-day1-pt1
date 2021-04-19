@@ -96,6 +96,22 @@ data() {
 }
 ```
 
+### 2.3. Utiliser les liaisons d'attribut
+
+html:
+```
+<img v-bind:src="image">
+```
+
+javascript:
+```
+  data() {
+        return {
+            image: "assets/images/example.jpeg"
+        }       
+    }
+```
+
 
 
 
