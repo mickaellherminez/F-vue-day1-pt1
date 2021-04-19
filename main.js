@@ -3,7 +3,10 @@ const app = Vue.createApp({
         return {
             name: "Lherminez",
             firstName: "Mickaël",
-            image: "assets/images/moi.jpeg"
+            job: "Tech Lead Front-End",
+            mail: "mickael.lherminez@gmail.com",
+            image: "assets/images/moi.jpeg",
+            exist: true,
         }       
     },
 })

@@ -13,9 +13,17 @@
 <body id="app">
     <div>
         <img v-bind:src="image">
+    </div>    
+    <div>
+        <p>
+            <span>{{firstName}} <strong>{{name}}</strong></span><br>
+            <span v-if="exist">
+                <span>{{job}}</span><br>
+                <span>{{mail}}</span><br>
+            </span>
+            <button @click="exist = !exist">{{ !exist ? 'J\'existe' : 'Je n\'existe pas' }}</button><br>
+        </p>
     </div>
-    <span>{{firstName}} <strong>{{name}}</strong></span>
-
     <!-- JS -->
     <script src="https://unpkg.com/vue@next"></script> 
     <script src="main.js"></script>

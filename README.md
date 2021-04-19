@@ -105,12 +105,36 @@ html:
 
 javascript:
 ```
-  data() {
-        return {
-            image: "assets/images/example.jpeg"
-        }       
-    }
+data() {
+    return {
+        image: "assets/images/example.jpeg"
+    }       
+}
 ```
+
+### 2.4. Exploiter les conditions
+
+html:
+```
+<div v-if="exist">
+    <span>text</span>
+</div>
+```
+
+javascript:
+```
+data() {
+    return {
+        exist: true,
+    }       
+},
+```
+
+
+
+
+
+
 
 
 
