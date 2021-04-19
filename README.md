@@ -177,8 +177,17 @@ items: [
 html:
 ```
 <span v-for="(item, index) in items" :key="index">{{item}}</span>
-
 ```
+
+### 2.8. Écouter les évènements
+
+html:
+```
+<input v-on:click="action..." type="checkbox" id="checkbox" v-model="checked">
+```
+
+
+
 
 
 
