@@ -2,6 +2,7 @@
 
 ## 1. Introduction
 ### 1,1, À propos de Vue.js
+
 [Vue.js Wikipedia](https://fr.wikipedia.org/wiki/Vue.js)
 
 [Vue.js 2 (doc)](https://vuejs.org/v2/guide/)
@@ -61,7 +62,20 @@ $ yarn
 $ yarn dev
 ```
 
+## 2. Les fondamentaux de Vue.js
+### 2.1. L'instance de vue
 
+Pour instancier Vue.js il faut ajouter dans le fichier index.html:
 
+```
+<div id="app">
+    <!-- code de l'application -->
+</div>
+```
 
+Et dans le fichier javascript: 
+
+```
+const app = Vue.createApp({ })
+```
 
