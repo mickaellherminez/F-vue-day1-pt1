@@ -22,7 +22,7 @@
                 <span>{{mail}}</span><br>
                 <table v-if="showList === 'Tableau'">
                     <tbody>
-                        <tr v-for="(skill, index) in skills">
+                        <tr v-for="(skill, index) in skills" :key="index">
                             <td><img :style="{width: skill.width, font: skill.color}" v-bind:src="skill.img"></td>
                             <td :style="{color: skill.color}" >{{skill.label}}</td>
                             <td>{{skill.rating}}/10</td>

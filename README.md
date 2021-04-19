@@ -172,11 +172,13 @@ items: [
 ]
 ```
 
+### 2.7. Comprendre l'attribut Key
 
+html:
+```
+<span v-for="(item, index) in items" :key="index">{{item}}</span>
 
-
-
-
+```
 
 
 
