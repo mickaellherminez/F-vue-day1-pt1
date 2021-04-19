@@ -130,8 +130,23 @@ data() {
 },
 ```
 
+### 2.5. Afficher ou cacher des éléments
 
+html:
+```
+<div v-show="show">
+    <span>text</span>
+</div>
+```
 
+javascript:
+```
+data() {
+    return {
+        show: true,
+    }       
+},
+```
 
 
 

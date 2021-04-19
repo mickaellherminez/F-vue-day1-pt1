@@ -17,11 +17,12 @@
     <div>
         <p>
             <span>{{firstName}} <strong>{{name}}</strong></span><br>
-            <span v-if="exist">
+            <span v-if="exist" v-show="show">
                 <span>{{job}}</span><br>
                 <span>{{mail}}</span><br>
             </span>
-            <button @click="exist = !exist">{{ !exist ? 'J\'existe' : 'Je n\'existe pas' }}</button><br>
+            <button @click="exist = !exist">{{ !exist ? 'J\'existe' : 'Je n\'existe pas' }}</button>
+            <button @click="show = !show">{{ !show ? 'J\'affiche' : 'Je n\'affiche pas'}}</button>
         </p>
     </div>
     <!-- JS -->

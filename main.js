@@ -7,6 +7,7 @@ const app = Vue.createApp({
             mail: "mickael.lherminez@gmail.com",
             image: "assets/images/moi.jpeg",
             exist: true,
+            show: true,
         }       
     },
 })
