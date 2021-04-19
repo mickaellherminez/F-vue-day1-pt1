@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.2.",
+  "description": "vue-js-training-day1",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickaellherminez/todo-list-vue3.git"
+  },
+  "keywords": [
+    "Vue.js"
+  ],
+  "author": "mickael.lherminez@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickaellherminez/todo-list-vue3/issues"
+  },
+  "homepage": "https://github.com/mickaellherminez/todo-list-vue3#readme"
+}
